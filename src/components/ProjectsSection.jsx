@@ -7,7 +7,7 @@ const projects = [
         id: 1,
         title: "Contact Manager",
         description: "A simple beautifull Contact Manager",
-        image: "/projects/contact.png",
+        image: "/projects/contact.svg",
         tags: ["React", "CSS"],
         demoUrl: "#",
         gitHubUrl: "https://github.com/iliakirt/Contact-Manager"
@@ -16,8 +16,8 @@ const projects = [
         id: 2,
         title: "Weather App",
         description: "A simple beautifull Weather App",
-        image: "/projects/weather-app.png",
-        tags: ["Raect", "CSS"],
+        image: "/projects/weather-app.svg",
+        tags: ["React", "CSS/Flexbox","OpenWeatherMap API"],
         demoUrl: "https://iliakirt.github.io/weather-app-react/",
         gitHubUrl: "https://github.com/iliakirt/weather-app-react"
     }

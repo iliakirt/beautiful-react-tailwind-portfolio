@@ -12,19 +12,17 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Passionate Web Developer & Tech Creator
+                            Motivated Front-End Developer Ready to Grow
                         </h3>
 
                         <p className="text-muted-foreground">
-                            With over 5 years of experience in web development, i specialize
-                            in creating responsive, accessible, and perfomant Web
-                            applications using modern technologies.
+                            I’m an enthusiastic and dedicated entry-level front-end developer, 
+                            passionate about creating modern, responsive websites and user interfaces.
                         </p>
 
                         <p className="text-muted-foreground">
-                            With over 5 years of experience in web development, i specialize
-                            in creating responsive, accessible, and perfomant Web
-                            applications using modern technologies.
+                            I truly enjoy this profession and I’m eager to bring creativity, 
+                            commitment, and continuous learning to a dynamic development team.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button">
@@ -33,7 +31,8 @@ export const AboutSection = () => {
                             </a>
 
                             <a
-                                href=""
+                                href="/Ilias Kirtsiotis CV.pdf"
+                                download
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                             >
                                 Download CV
@@ -47,10 +46,11 @@ export const AboutSection = () => {
                                     <Code className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font text-semibold text-lg">Web Development</h4>
+                                    <h4 className="font text-semibold text-lg">Computer Engineering Graduate</h4>
                                     <p className="text-muted-foreground">
-                                        Creating responsive websites and web applications with
-                                        modern frameworks.
+                                        I hold a degree in Computer Engineering, 
+                                        which provided me with a solid foundation in software, 
+                                        hardware, and problem-solving.
                                     </p>
                                 </div>
                             </div>
@@ -61,10 +61,11 @@ export const AboutSection = () => {
                                     <User className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font text-semibold text-lg">Web Development</h4>
+                                    <h4 className="font text-semibold text-lg">TechPro Academy Graduate</h4>
                                     <p className="text-muted-foreground">
-                                        Creating responsive websites and web applications with
-                                        modern frameworks.
+                                        I completed an intensive bootcamp at TechPro Academy, 
+                                        focused on front-end development with modern technologies 
+                                        and real-world projects.
                                     </p>
                                 </div>
                             </div>
@@ -75,10 +76,10 @@ export const AboutSection = () => {
                                     <Briefcase className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font text-semibold text-lg">Web Development</h4>
+                                    <h4 className="font text-semibold text-lg">Driven to Grow in Web Development</h4>
                                     <p className="text-muted-foreground">
-                                        Creating responsive websites and web applications with
-                                        modern frameworks.
+                                        I’m passionate about programming and eager to contribute to a creative team, 
+                                        while continuously learning and evolving as a developer.
                                     </p>
                                 </div>
                             </div>

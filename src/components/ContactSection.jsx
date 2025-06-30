@@ -1,8 +1,25 @@
 import { Facebook, Instagram, Mail, MapPin, Phone } from 'lucide-react';
 import { Linkedin, Send } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useRef, useState } from 'react';
 
 export const ContactSection = () => {
+    const formRef = useRef();
+    const [successMessage, setSuccessMessage] = useState(false);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const form = formRef.current;
+
+        form.submit();
+
+        setTimeout(() => {
+            form.reset();
+
+            setTimeout(() => setSuccessMessage(false), 4000);
+        }, 200);
+    };
+
     return (
         <section
             id="contact"
@@ -84,7 +101,13 @@ export const ContactSection = () => {
                     <div className='bg-card p-8 rounded-lg shadow-xs'>
                         <h3 className='text-2xl font-semibold mb-6'> Send a Message</h3>
 
-                        <form className='space-y-6'>
+                        <form
+                            ref={formRef}
+                            onSubmit={handleSubmit}
+                            className='space-y-6'
+                            action="https://formspree.io/f/xeoknjoy"
+                            method='POST'
+                        >
                             <div>
                                 <label
                                     htmlFor="name"
@@ -116,7 +139,7 @@ export const ContactSection = () => {
                                     name='email'
                                     required
                                     className='w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary'
-                                    placeholder='john@gmail.com' />
+                                    placeholder='iliakirt@gmail.com' />
                             </div>
 
                             <div>
@@ -135,15 +158,20 @@ export const ContactSection = () => {
                                     placeholder="Hello, I'd like to talk about..." />
                             </div>
 
-                            <button 
-                            type='submit' 
-                            className={cn("cosmic-button w-full flex items-center justify-center gap-2",
+                            <button
+                                type='submit'
+                                className={cn("cosmic-button w-full flex items-center justify-center gap-2",
 
-                            )}
+                                )}
                             >
                                 Send Message
-                                <Send size={16}/>
+                                <Send size={16} />
                             </button>
+                            {successMessage && (
+                                <p className="text-green-500 text-sm mt-4 text-center animate-fade-in">
+                                    ✅ Thanks for your message!
+                                </p>
+                            )}
                         </form>
                     </div>
                 </div>
