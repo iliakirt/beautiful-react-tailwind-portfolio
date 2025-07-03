@@ -20,7 +20,7 @@ export const HeroSection = () => {
                         </span>
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        I’m an entry-level front-end developer, 
+                        I’m an entry-level front-end developer,  
                         actively seeking my first professional opportunity. 
                         I’m passionate about building beautiful, functional interfaces and constantly improving my skills with modern technologies.
                     </p>

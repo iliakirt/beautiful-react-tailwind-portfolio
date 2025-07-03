@@ -65,7 +65,7 @@ export const AboutSection = () => {
                                     <p className="text-muted-foreground">
                                         I completed an intensive bootcamp at TechPro Academy, 
                                         focused on front-end development with modern technologies 
-                                        and real-world projects.
+                                        and real-world projects. 
                                     </p>
                                 </div>
                             </div>

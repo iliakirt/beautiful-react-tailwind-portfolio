@@ -49,7 +49,7 @@ export const StarBackground = () => {
                 x: Math.random() * 100,
                 y: Math.random() * 20,
                 delay: Math.random() * 15,
-                animationDuration: Math.random() * 3 + 3,
+                animationDuration: Math.random() * 3 + 3, 
             })
         }
         setMeteors(newMeteors);
