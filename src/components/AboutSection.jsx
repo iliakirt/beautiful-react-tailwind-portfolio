@@ -50,7 +50,7 @@ export const AboutSection = () => {
                                     <p className="text-muted-foreground">
                                         I hold a degree in Computer Engineering, 
                                         which provided me with a solid foundation in software, 
-                                        hardware, and problem-solving.
+                                        hardware, and problem-solving
                                     </p>
                                 </div>
                             </div>
